@@ -1,0 +1,45 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+body {
+  background-color: gray;
+}
+
+*{
+  text-align: center;
+}
+
+h1,h2{
+  color: snow;
+  background-color: black;
+  font-family: 'Acme', sans-serif;
+}
+
+.note {
+  color: red;
+  font-size: 20px;
+  background-color: white;
+  font-family: 'Acme', sans-serif;
+  
+}
+
+li[value="2"]{
+  color: orange;
+}
+
+li[id="id-selector-demo"]{
+  color: green;
+}
+
+li[value="4"]{
+  color: blue;
+}
+
+li[value="5"]{
+  color: gold;
+}
+
+
